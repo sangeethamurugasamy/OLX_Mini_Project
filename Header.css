@@ -1,0 +1,27 @@
+/* body{
+    font-size: 15px;
+}
+.fixed{
+    position:fixed;
+}
+.rel{
+    position:relative;
+}
+.abs{
+    position: absolute;
+}
+.sticky{
+    position: sticky;
+}
+.flex{display: flex;}
+.aic{align-items: center;}
+.sellFont{
+    font-size: 15px;
+}
+.loginFont{
+    font-size: 15px;
+} */
+.name{
+    color: blue;
+    float: left;
+}
