@@ -1,0 +1,48 @@
+/* body{
+    font-size: 15px;
+}
+.fixed{
+    position:fixed;
+}
+.rel{
+    position:relative;
+}
+.abs{
+    position: absolute;
+}
+.sticky{
+    position: sticky;
+}
+.flex{display: flex;}
+.aic{align-items: center;}
+.sellFont{
+    font-size: 15px;
+}
+.loginFont{
+    font-size: 15px;
+} */
+.header{
+    margin-top: 5px;
+    /* background-color: burlywood; */
+}
+.name{
+    color: blue;
+    float: left;
+}
+.location{
+    float:left;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.actions{
+    /* float: right; */
+    margin-left: 500px;
+}
+.sell{
+    margin-left: 10px;
+    border:solid 3px blue;
+    border-radius: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
