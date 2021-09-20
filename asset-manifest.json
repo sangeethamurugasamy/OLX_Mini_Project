@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/olx-app/static/css/main.2bfad7d1.chunk.css",
+    "main.js": "/olx-app/static/js/main.bf04d680.chunk.js",
+    "main.js.map": "/olx-app/static/js/main.bf04d680.chunk.js.map",
+    "runtime-main.js": "/olx-app/static/js/runtime-main.8dea17cd.js",
+    "runtime-main.js.map": "/olx-app/static/js/runtime-main.8dea17cd.js.map",
+    "static/css/2.f2512455.chunk.css": "/olx-app/static/css/2.f2512455.chunk.css",
+    "static/js/2.92df7e78.chunk.js": "/olx-app/static/js/2.92df7e78.chunk.js",
+    "static/js/2.92df7e78.chunk.js.map": "/olx-app/static/js/2.92df7e78.chunk.js.map",
+    "static/js/3.1124b7e1.chunk.js": "/olx-app/static/js/3.1124b7e1.chunk.js",
+    "static/js/3.1124b7e1.chunk.js.map": "/olx-app/static/js/3.1124b7e1.chunk.js.map",
+    "index.html": "/olx-app/index.html",
+    "static/css/2.f2512455.chunk.css.map": "/olx-app/static/css/2.f2512455.chunk.css.map",
+    "static/css/main.2bfad7d1.chunk.css.map": "/olx-app/static/css/main.2bfad7d1.chunk.css.map",
+    "static/js/2.92df7e78.chunk.js.LICENSE.txt": "/olx-app/static/js/2.92df7e78.chunk.js.LICENSE.txt",
+    "static/media/bike_image1.jpg": "/olx-app/static/media/bike_image1.f9a139a7.jpg",
+    "static/media/bike_image2.webp": "/olx-app/static/media/bike_image2.c4471918.webp",
+    "static/media/bike_image3.jfif": "/olx-app/static/media/bike_image3.ea70f7c8.jfif",
+    "static/media/book_image1.jfif": "/olx-app/static/media/book_image1.66815476.jfif",
+    "static/media/book_image2.jfif": "/olx-app/static/media/book_image2.e60ec385.jfif",
+    "static/media/book_image3.jfif": "/olx-app/static/media/book_image3.82a5dd03.jfif",
+    "static/media/lap_image1.jfif": "/olx-app/static/media/lap_image1.4bc4a42a.jfif",
+    "static/media/lap_image2.jfif": "/olx-app/static/media/lap_image2.b7f08c99.jfif",
+    "static/media/lap_image3.jfif": "/olx-app/static/media/lap_image3.dddedad3.jfif",
+    "static/media/logo.6ce24c58.svg": "/olx-app/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8dea17cd.js",
+    "static/css/2.f2512455.chunk.css",
+    "static/js/2.92df7e78.chunk.js",
+    "static/css/main.2bfad7d1.chunk.css",
+    "static/js/main.bf04d680.chunk.js"
+  ]
+}
