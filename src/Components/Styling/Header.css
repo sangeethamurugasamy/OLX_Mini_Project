@@ -1,48 +1,70 @@
-/* body{
-    font-size: 15px;
-}
-.fixed{
-    position:fixed;
-}
-.rel{
-    position:relative;
-}
-.abs{
-    position: absolute;
-}
-.sticky{
-    position: sticky;
-}
-.flex{display: flex;}
-.aic{align-items: center;}
-.sellFont{
-    font-size: 15px;
-}
-.loginFont{
-    font-size: 15px;
-} */
 .header{
-    margin-top: 5px;
-    /* background-color: burlywood; */
+    /* margin-top: 5px; */
+    display: flex;
+    align-items: center;
+    /* background-image: url('Images/backgroundImage.jpg'); */
+    background-color: whitesmoke;  
+    position: sticky;
+    top:0;
+    z-index: 100;
+
 }
-.name{
-    color: blue;
-    float: left;
+.headLogo{
+    display:flex;
+    height: 30px;
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* float: left; */
 }
 .location{
-    float:left;
+    display: flex;
+    /* float:left; */
     font-size: 15px;
     font-weight: bold;
     margin-left: 50px;
+    display: flex;
+    flex: 1;
 }
 .actions{
     /* float: right; */
-    margin-left: 500px;
+    /* margin-left: 500px; */
+    display: flex;
+    flex:1;
+    /* align-items: flex-end; */
+    align-items: center;
+    justify-content: flex-end;
 }
-.sell{
+.headlogin{
+    color: black;
+    font-weight: bolder;
+}
+.headlogin:hover{
+    text-decoration: underline;
+}
+.headcart{
+    color: black;
+    font-weight: bolder;
+}
+.cart:hover{
+    text-decoration: underline;
+}
+.headsell
+{
+    color: black;
+    font-weight: bolder;
+}
+.headsell:hover{
+    text-decoration: underline;
+}
+/* .sell{
+    padding: 4px 18px;
+    border:solid 3px gold;
+    text-align: center;
+    font-weight: bolder;
+    background: white;
     margin-left: 10px;
-    border:solid 3px blue;
-    border-radius: 10px;
-    padding-left: 3px;
-    padding-right: 3px;
-}
+    margin-right: 10px;
+    border-radius: 30px;
+    box-shadow: 0px 3px 5px #a9a9a9;
+} */

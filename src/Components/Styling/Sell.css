@@ -1,0 +1,56 @@
+.sell{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sell__logo{
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    width: 100px;
+    object-fit: contain;
+}
+.sell__container{
+    width:600px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid lightgray;
+}
+.sell__container > h1{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.sell__container >form >h5{
+    margin-bottom: 5px;
+}
+.sell__container >form >input{
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 60%;
+}
+.sell__container > form > .desc{
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 60%;
+}
+.submit{
+    background: #f0c14b;
+    border-radius: 2px;
+    width: 30%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+}
+/* .regbut{
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: darkgray;
+}  */
