@@ -1,5 +1,6 @@
 .footer{
-    margin-top: 600px;
+    display:flex;
+    /* margin-top: 600px; */
     margin-left: 550px;
     color: blue;
 }

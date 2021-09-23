@@ -1,0 +1,40 @@
+#div1:hover{
+    background-color: whitesmoke;
+    border: solid 3px blue;
+    border-radius: 25px;
+}
+#hone{
+    color: maroon;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#para{
+    color:slateblue;
+    border: hidden 2px black;
+    font-weight: 500;
+}
+#para:hover{
+    
+    color: darkgreen;
+    border: hidden 2px black;
+    font-weight: 900;
+    font-family: cursive;
+    
+}
+#button{
+    background-color: limegreen;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 4px 4px 9px 0 #000;
+    width: 32%;
+    border: solid 2px black;
+    font-family: fantasy;
+}
+.link{
+    color: deeppink;
+    text-decoration: none;
+}
+.link:hover{
+    color: blue;
+    text-decoration: underline;
+}

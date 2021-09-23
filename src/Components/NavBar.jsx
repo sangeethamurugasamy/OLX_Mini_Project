@@ -3,7 +3,10 @@ import { Link, Route, Switch } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './Styling/NavBar.css'
 import {Nav} from 'react-bootstrap'
-import img1 from './Images/olxLogo.png';
+import {Home} from './Home';
+import {Bike} from './Bike';
+import {Book} from './Book';
+import {Laptop} from './Laptop';
 
 export class NavBar extends React.Component {
     render() {
@@ -16,10 +19,10 @@ export class NavBar extends React.Component {
             </div>
 
             <Switch>
-                <Route exact path='/' component={HomeComp} />
-                <Route path="/Books" component={BooksComp} />
-                <Route path="/Laptops" component={LaptopsComp} />
-                <Route path="/Bikes" component={BikesComp} />
+                <Route exact path='/' component={Home} />
+                <Route path="/Books" component={Book} />
+                <Route path="/Laptops" component={Laptop} />
+                <Route path="/Bikes" component={Bike} />
             </Switch>
         </div>
     }
