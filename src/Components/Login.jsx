@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link, Switch, Route } from 'react-router-dom'
 import { Redirect } from "./Redirect";
 import { Register } from "./Register";
-import img1 from './Images/olxLogo.png';
+import img1 from './Images/Logo6.png';
 import {Nav} from 'react-bootstrap'
 import './Styling/Login.css';
 export class Login extends React.Component {

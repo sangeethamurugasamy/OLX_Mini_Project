@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link, Switch, Route } from 'react-router-dom'
-import img1 from './Images/olxLogo.png';
+import img1 from './Images/Logo6.png';
 import {Nav} from 'react-bootstrap'
 import './Styling/Sell.css';
 export class Sell extends React.Component {

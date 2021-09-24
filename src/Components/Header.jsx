@@ -4,7 +4,8 @@ import {Link,Route,Switch} from 'react-router-dom'
 import './Styling/Header.css'
 import {Login} from './Login';
 // import {Sell} from './Sell';
-import img1 from './Images/olxLogo.png';
+import img1 from './Images/Logo5.png';
+import img2 from './Images/Basket.png';
 import {Nav} from 'react-bootstrap'
 import ShoppingBasketIcon from  "@mui/icons-material/ShoppingBasket";
 
@@ -35,6 +36,9 @@ export class Header extends React.Component{
                     <input className='label' placeholder='Your location' value={this.state.city}
                     onChange={this.changeCity.bind(this)}/>
                 </div>
+                <div className="welnote">
+                    <h1>Welcome to MissingEnigma.com</h1>
+                </div>
                 <div className="actions">
                     <Nav.Link as={Link} to="/Login" className="headlogin">Login</Nav.Link>
                     <Nav.Link as={Link} to="/Sell" className="headsell">Sell</Nav.Link>
@@ -42,7 +46,10 @@ export class Header extends React.Component{
                         <button className="sell" onClick={Sell}>Sell</button>
                     </div> */}
                     <Nav.Link as={Link} to="/Cart" className="headcart">
-                        Cart
+                        <div className="icon">
+                        <img className="basLogo" src={img2} alt=""/>
+                        <span className="count">0</span>
+                        </div>
                     </Nav.Link>
                     {/* <Switch>
                         <Route path="/cart" component={cart}/>

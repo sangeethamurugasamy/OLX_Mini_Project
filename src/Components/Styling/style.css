@@ -1,7 +1,13 @@
 #div1:hover{
-    background-color: whitesmoke;
-    border: solid 3px blue;
-    border-radius: 25px;
+    background-color: white;
+}
+#product{
+    text-align: center;
+}
+#product:hover{
+    border: solid 3px black;
+    border-radius: 20px;
+    text-align: center;
 }
 #hone{
     color: maroon;
@@ -29,6 +35,7 @@
     width: 32%;
     border: solid 2px black;
     font-family: fantasy;
+    
 }
 .link{
     color: deeppink;

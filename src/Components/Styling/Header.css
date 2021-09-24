@@ -17,6 +17,16 @@
     margin-right: 10px;
     /* float: left; */
 }
+.basLogo{
+    display:flex;
+    height: 30px;
+    width: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.icon{
+    display: flex;
+}
 .location{
     display: flex;
     /* float:left; */
@@ -56,6 +66,9 @@
 }
 .headsell:hover{
     text-decoration: underline;
+}
+.welnote{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /* .sell{
     padding: 4px 18px;

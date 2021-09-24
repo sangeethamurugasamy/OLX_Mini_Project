@@ -1,6 +1,19 @@
-.footer{
+.preFinal{
     display:flex;
     /* margin-top: 600px; */
-    margin-left: 550px;
-    color: blue;
+    /* margin-left: 20px; */
+    /* text-align: center; */
+    color: #003153;
+    background-color: #71a6d2;
+    text-align: center;
+}
+.preFinal >p{
+    display:flex;
+    margin-left: 20px;
+    margin-right: 130px;
+}
+.finalTag{
+    text-align: center;
+    color: white;
+    background-color: #003153;
 }
