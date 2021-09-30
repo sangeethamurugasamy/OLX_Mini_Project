@@ -2,23 +2,35 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Link,Route,Switch} from 'react-router-dom'
 import './Styling/Header.css'
-import {Login} from './Login';
-// import {Sell} from './Sell';
-import img1 from './Images/Logo5.png';
+import Login from './Login';
+import {Sell} from './Sell';
+import img1 from './Images/MElogo1.png';
 import img2 from './Images/Basket.png';
-import {Nav} from 'react-bootstrap'
-import ShoppingBasketIcon from  "@mui/icons-material/ShoppingBasket";
+import {Nav} from 'react-bootstrap';
+import {useStateValue} from './StateProvider';
+import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
+// import {useStateValue} from './StateProvider';
 
-export class Header extends React.Component{
-    constructor(){
-        super();
-        this.state={city:"Chennai"}
-    }
-    changeCity(event){
-        this.setState({city : event.target.value})
-    }
-    render(){
-        <Login/>
+// function Statevale(){
+// const Assign = ()=>{[{basket}, dispatch] = useStateValue();}
+
+// }
+
+    //     this.state={city:"Chennai"}
+    // changeCity(event){
+    //     this.setState({city : event.target.value})
+    // };
+    function Header(){
+        const [{basket, user}] = useStateValue();
+        const auth=getAuth();
+        console.log(basket);
+
+        const login =() =>{
+            if(user) {
+                auth.signOut();
+            }
+        };
+
         return(
             <nav className="header">
                 {/* <div className="head">
@@ -33,14 +45,14 @@ export class Header extends React.Component{
                 </Nav.Link>
                 <div className="location">
                     Location: :
-                    <input className='label' placeholder='Your location' value={this.state.city}
-                    onChange={this.changeCity.bind(this)}/>
+                    <input className='label' placeholder='Your location' />
+                     {/* value={this.state.city} onChange={this.changeCity.bind(this)}/> */}
                 </div>
                 <div className="welnote">
                     <h1>Welcome to MissingEnigma.com</h1>
                 </div>
                 <div className="actions">
-                    <Nav.Link as={Link} to="/Login" className="headlogin">Login</Nav.Link>
+                    <Nav.Link as={Link} to={!user  && "/Login"} className="headlogin"><div onClick={login}>{user ? 'Logout' : 'Login'}</div></Nav.Link>
                     <Nav.Link as={Link} to="/Sell" className="headsell">Sell</Nav.Link>
                     {/* <div>
                         <button className="sell" onClick={Sell}>Sell</button>
@@ -48,7 +60,7 @@ export class Header extends React.Component{
                     <Nav.Link as={Link} to="/Cart" className="headcart">
                         <div className="icon">
                         <img className="basLogo" src={img2} alt=""/>
-                        <span className="count">0</span>
+                        <span className="count">{basket.length}</span>
                         </div>
                     </Nav.Link>
                     {/* <Switch>
@@ -61,8 +73,10 @@ export class Header extends React.Component{
 
             </nav>
         );
-    }
+    //}
 }
+export default Header;
+// export default Statevale;
 // function Sell(){
 //     alert("Clicked");
 //     return <h1>Enter product details</h1>

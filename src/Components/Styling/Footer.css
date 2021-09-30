@@ -17,3 +17,10 @@
     color: white;
     background-color: #003153;
 }
+.chatbot{
+    position: static;
+    right: 0px;
+    /* display: flex; */
+    /* background-color: burlywood; */
+    margin-top: 30px;
+}

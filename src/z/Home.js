@@ -11,11 +11,24 @@ import img6 from "./Images/lap_image2.jfif";
 import img7 from "./Images/lap_image3.jfif";
 import img8 from "./Images/book_image3.jfif";
 import img9 from "./Images/bike_image3.jfif";
+// import { useStateValue } from './StateProvider';
 
 
 
 export class Home extends React.Component {
+
     render() {
+    // export default function Home() { 
+        // const [{basket}, dispatch] = useStateValue();
+        // const message =() =>{
+        //     dispatch({
+        //         type: 'message',
+        //         item:{
+        //             id
+        //         }
+
+        //     })
+        // };   
         return <div>
             <div className="container">
                 <div className="row" id="div1">
@@ -167,6 +180,7 @@ export class Home extends React.Component {
                 </div>
             </div>
         </div>
+
     }
 }
 
@@ -272,5 +286,10 @@ const Lap3Desc = () => {
 
 function message() {
     alert("Thank You For Purchasing!!!")
-}
+    // dispatch({
+    //     type: 'ADD'
+    // })
+};
+
+export default message;
 

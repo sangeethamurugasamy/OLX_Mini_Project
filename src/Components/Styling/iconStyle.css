@@ -1,0 +1,21 @@
+.Button{
+    background-image: url("../Images/Chaticon.jpg");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    display:block;
+    border-radius: 50px;
+    border: solid 1px dodgerblue;
+}
+
+.open_close{
+    font-weight: 800;
+    color:dodgerblue
+}
+.chatbot{
+    margin-top: 35px;
+    display:flex;
+    float: right;
+    position: fixed;
+
+}

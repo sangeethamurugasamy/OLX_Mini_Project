@@ -1,0 +1,29 @@
+.checkout {
+    display: flex;
+    flex: 1;
+    float: left;
+    padding: 20px;
+    background-color: white;
+    /* justify-content: center; */
+    height: max-content;
+    width: 100%;
+    /* width: 2500px; */
+}
+/* .empty>h2{
+    text-align: center;
+    color: royalblue;
+    font-weight: bold;
+}
+.empty >p{
+    margin-top: 50px;
+    text-align: center;
+    color: rebeccapurple;
+    font-size: large;
+    font-weight: bold;
+} */
+
+.checkout__title {
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}

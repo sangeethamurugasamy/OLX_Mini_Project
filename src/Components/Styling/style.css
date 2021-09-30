@@ -1,47 +1,20 @@
-#div1:hover{
-    background-color: white;
-}
-#product{
+#itemcard{
     text-align: center;
 }
-#product:hover{
-    border: solid 3px black;
-    border-radius: 20px;
+#itemcard:hover{
+    border: solid 5px black;
+    border-radius: 30px;
     text-align: center;
 }
-#hone{
-    color: maroon;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.description{
+    font-size: small;
+    font-weight: 600;
+    color: rebeccapurple;
 }
-#para{
-    color:slateblue;
-    border: hidden 2px black;
-    font-weight: 500;
+.price{
+    font-weight: 600;
+    color:royalblue;
 }
-#para:hover{
-    
-    color: darkgreen;
-    border: hidden 2px black;
-    font-weight: 900;
-    font-family: cursive;
-    
-}
-#button{
-    background-color: limegreen;
-    border-radius: 10px;
-    display: inline-block;
-    box-shadow: 4px 4px 9px 0 #000;
-    width: 32%;
-    border: solid 2px black;
-    font-family: fantasy;
-    
-}
-.link{
-    color: deeppink;
-    text-decoration: none;
-}
-.link:hover{
-    color: blue;
-    text-decoration: underline;
+.title{
+    color: royalblue;
 }
