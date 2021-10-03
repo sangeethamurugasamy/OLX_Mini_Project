@@ -18,6 +18,11 @@ import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
 import { Chat } from '@mui/icons-material';
 import { useStateValue } from './Components/StateProvider';
 import proceedToCheckout from './Components/ProceedToCheck';
+import { CartLayout } from './Components/CartLayout';
+import { Admin } from './Components/Admin';
+import { Customers } from './Components/Customers';
+import { ParticularUser } from './Components/ParticularUser';
+import Banner from './Components/Banner';
 // import { Navigation } from './Components/Styling/Navigation';
 
 
@@ -77,14 +82,17 @@ function App() {
             </Route>
             <Route path="/Signup" component={Signup}>
             </Route>
+            <Route path="/Admin" component={Admin}>
+              <Header/>
+              <Admin/>
+            </Route>
+            <Route path="/customers/:name" component={ParticularUser}></Route>
+            <Route exact path="/Customers" component={Customers} />
             <Route path="/ProceedToCheck" component={proceedToCheckout}>
             </Route>
             <Route path="/Cart"> 
-            {/* component={Cart}> */}
               <Header/>
-              {/* <Cart/> */}
               <Checkout/>
-              <Footer/>
             </Route>
             <Route path="/Sell" componrnt={Sell}>
               <Header/>

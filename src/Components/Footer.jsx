@@ -6,10 +6,11 @@ import Chatbot from './Chatbot';
 
 export class Footer extends React.Component{
     render(){
-        return <footer className='footer'>
+        return <div>
           {/* <div className="chatbot">
             <Chatbot/>
           </div> */}
+          <div className="footer">
             <div className="preFinal">
                 <h5>For Queries Contact:</h5>
                 <p>missingenigma@gmail.com</p>
@@ -22,6 +23,7 @@ export class Footer extends React.Component{
                     MissingEnigma.com Ltd;
                 </strong>
             </div>
-        </footer>
+        </div>
+        </div>
     }
 }

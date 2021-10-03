@@ -51,6 +51,7 @@ import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
                 <div className="welnote">
                     <h1>Welcome to MissingEnigma.com</h1>
                 </div>
+                <div className="name">{user?.email.split("@gmail.com")}</div>
                 <div className="actions">
                     <Nav.Link as={Link} to={!user  && "/Login"} className="headlogin"><div onClick={login}>{user ? 'Logout' : 'Login'}</div></Nav.Link>
                     <Nav.Link as={Link} to="/Sell" className="headsell">Sell</Nav.Link>

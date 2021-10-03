@@ -1,5 +1,5 @@
-.preFinal{
-    display:flex;
+.cartTag{
+    /* display:flex; */
     /* margin-top: 600px; */
     /* margin-left: 20px; */
     /* text-align: center; */
@@ -7,18 +7,13 @@
     background-color: #71a6d2;
     text-align: center;
 }
-.preFinal >p{
-    display:flex;
+/* .cartTag >p{
+    
     margin-left: 20px;
     margin-right: 130px;
-}
-.finalTag{
+} */
+.cartFinal{
     text-align: center;
     color: white;
     background-color: #003153;
 }
-/* .chatbot{
-    position: static;
-    right: 0px;
-    margin-top: 30px;
-} */

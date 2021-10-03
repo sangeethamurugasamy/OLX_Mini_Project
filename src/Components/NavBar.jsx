@@ -7,6 +7,9 @@ import HomeComp from './Home/HomeComp';
 import BikeComp from './Bike/BikeComp';
 import BookComp from './Book/BookComp';
 import LaptopComp from './Laptop/LapComp';
+import Banner from './Banner';
+import Chatbot from './Chatbot';
+import { Admin } from './Admin';
 
 
 export class NavBar extends React.Component {
@@ -17,13 +20,17 @@ export class NavBar extends React.Component {
                 <Nav.Link as={Link} to="/Books" id="l2">Books</Nav.Link>
                 <Nav.Link as={Link} to="/Laptops" id="l3">Laptops</Nav.Link>
                 <Nav.Link as={Link} to="/Bikes" id='l4'>Bikes</Nav.Link>
+                <div className="admin"><Nav.Link as={Link} to="/Admin" id='l4'>ADMIN</Nav.Link></div>
             </div>
+            <Banner/>
+            {/* <Chatbot/>  */}
 
             <Switch>
                 <Route exact path='/' component={HomeComp} />
                 <Route path="/Books" component={BookComp} />
                 <Route path="/Laptops" component={LaptopComp} />
                 <Route path="/Bikes" component={BikeComp} />
+
             </Switch>
         </div>
     }

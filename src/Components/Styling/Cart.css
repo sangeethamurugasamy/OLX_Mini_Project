@@ -21,9 +21,23 @@
     font-size: large;
     font-weight: bold;
 } */
-
 .checkout__title {
     margin-right: 10px;
     padding: 10px;
     border-bottom: 1px solid lightgray;
+}
+.cartTag{
+    display: flex;
+    color: #003153;
+    background-color: #71a6d2;
+    text-align: center;
+}
+.cartTag > p{
+    /* margin-left: auto; */
+    margin-right: auto ;
+}
+.cartFinal{
+    text-align: center;
+    color: white;
+    background-color: #003153;
 }

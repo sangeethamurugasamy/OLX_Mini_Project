@@ -14,6 +14,9 @@ function Subtotal() {
     const [{basket}, dispatch] = useStateValue();
     const [{user}] = useStateValue();
     const auth=getAuth();
+    const total=getBasketTotal(basket)
+    const length= basket.length;
+    console.log("total value" ,length);
 
     return (
         <div className="subtotal">
